@@ -1,0 +1,11 @@
+*{
+    margin: 5px;
+}
+
+.user {
+    border: 1px solid #000000;
+}
+
+.input {
+    width: 120px;
+}
