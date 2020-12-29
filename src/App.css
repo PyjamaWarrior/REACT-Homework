@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+h4, p, span {
+    margin: 10px;
+}
+
+header {
+    background-color: mediumaquamarine;
+    color: #ffffff;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.tac {
+    text-align: center;
+}
+
+.border-bottom {
+    border-bottom: 2px solid mediumaquamarine;
+}
