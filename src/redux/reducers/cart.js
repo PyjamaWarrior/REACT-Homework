@@ -3,7 +3,7 @@ import {TOGGLE_ITEM_IN_CART} from "../action-types";
 const initialState = {
     cart: []
 }
-export default (state = initialState, action) => {
+export const cart = (state = initialState, action) => {
     switch (action.type) {
         case TOGGLE_ITEM_IN_CART: {
             const updatedCart = state.cart.filter(value => value.id !== action.payload.id);

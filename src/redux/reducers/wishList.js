@@ -3,7 +3,7 @@ import {TOGGLE_ITEM_IN_WISH_LIST} from "../action-types";
 const initialState = {
     wishList: []
 }
-export default (state = initialState, action) => {
+export const wishList = (state = initialState, action) => {
     switch (action.type) {
         case TOGGLE_ITEM_IN_WISH_LIST: {
             const updatedWishList = state.wishList.filter(value => value.id !== action.payload.id);
