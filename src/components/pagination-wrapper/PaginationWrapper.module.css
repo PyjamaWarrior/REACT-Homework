@@ -1,0 +1,36 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: mediumaquamarine;
+}
+
+.pagination button {
+    color: white;
+    background-color: mediumaquamarine;
+    border: none;
+    text-transform: uppercase;
+    margin: 5px;
+    width: content-box;
+    font-size: 14px;
+    line-height: 14px;
+    transition: all .2s linear;
+}
+
+.pagination button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.pagination button:focus {
+    outline: none;
+}
+
+.pagination button:disabled {
+    color: grey;
+    background: none;
+    font-size: 14px;
+    cursor: default;
+}

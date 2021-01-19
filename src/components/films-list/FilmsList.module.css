@@ -1,0 +1,9 @@
+.filmsList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.filmsItem__wrapper {
+    flex: 0 1 23%;
+}

@@ -1,0 +1,11 @@
+.filmsItem {
+    text-align: center;
+    border: mediumaquamarine 3px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.filmsItem:hover {
+    cursor: pointer;
+}
